@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Headers Observatory — which sites talk to AI agents via HTTP headers</title>
+<meta name="description" content="A public, versioned dataset of websites that communicate with AI agents through HTTP headers. Seeded with real scans; community-built.">
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#1a1a1a;line-height:1.6}
+.stat{display:inline-block;margin:0 1.5rem 1rem 0}.stat b{font-size:2rem;display:block}
+table{border-collapse:collapse;width:100%;margin:1rem 0}td,th{border:1px solid #ddd;padding:.5rem;text-align:left}
+code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;word-break:break-all}
+.note{background:#fff8e1;border:1px solid #f0d060;padding:1rem;border-radius:6px}
+footer{margin-top:2rem;color:#666;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Agent Headers Observatory</h1>
+<p>The public dataset of websites that talk to AI agents through HTTP headers.
+Seeded October 2026, after researchers found ~8,000 sites using headers to
+reach AI agents — and 30 attempting indirect prompt injection through them.</p>
+
+<h2>Dataset v0.1 — at a glance</h2>
+<div class="stat"><b>44</b>sites observed</div>
+<div class="stat"><b>1</b>agent-directed</div>
+<div class="stat"><b>0</b>suspicious</div>
+<div class="stat"><b>0</b>failed scans</div>
+<p><small>Dataset file: <code>observations-2026-10-16.json</code> · generated 2026-10-16T19:34:40+00:00 · schema v0.1.
+Numbers on this page are computed from the dataset by <code>tools/stats.py</code>.</small></p>
+
+<h2>Sites with agent-directed or suspicious headers</h2>
+<table>
+<tr><th>Site</th><th>Verdict</th><th>Header</th><th>Value (truncated)</th></tr>
+<tr><td><code>https://replicate.com</code></td><td>agent-directed</td><td><code>link</code></td><td>&lt;/.well-known/api-catalog&gt;; rel=&quot;api-catalog&quot;; type=&quot;application/linkset+json&quot;, &lt;https://api.replica</td></tr>
+</table>
+
+<h2>Most common flagged header names</h2>
+<table>
+<tr><th>Header</th><th>Sites</th></tr>
+<tr><td><code>link</code></td><td>1</td></tr>
+</table>
+
+<div class="note">
+<strong>Methodology &amp; honest limits.</strong> Every observation is a real run of
+<a href="https://github.com/Iceman2050/header-hunter">header-hunter</a>
+(one request per site, timeouts, redirect caps). "Suspicious" means
+<em>possible</em> indirect prompt injection — unconfirmed by definition; this
+dataset never claims confirmed attacks. v0.1 covers 44 well-known sites; it is a
+seed, not a census. Failed scans are kept in the dataset with their error.
+</div>
+
+<h2>Get the data</h2>
+<p><a href="../dataset/observations-2026-10-16.json" download>Download observations JSON</a> |
+<a href="https://github.com/Iceman2050/agent-headers-observatory">GitHub repo</a> |
+<a href="https://github.com/Iceman2050/agent-headers-observatory/blob/main/CONTRIBUTING.md">Contribute your scans</a></p>
+
+<h2>Roadmap</h2>
+<ul>
+<li>Weekly re-scans with per-site trend lines</li>
+<li>HTTP API for the dataset</li>
+<li>Suspicious-header alert feed</li>
+</ul>
+
+<footer>Agent Headers Observatory | MIT licensed | by Ingenious AI |
+numbers generated from the dataset, never hand-typed.</footer>
+</body>
+</html>

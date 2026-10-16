@@ -1,0 +1,410 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-10-16T19:34:40+00:00",
+  "scanner": "header-hunter (Iceman2050/header-hunter)",
+  "observations": [
+    {
+      "url": "https://techcrunch.com",
+      "final_url": "https://techcrunch.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.theverge.com",
+      "final_url": "https://www.theverge.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.wired.com",
+      "final_url": "https://www.wired.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://arstechnica.com",
+      "final_url": "https://arstechnica.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.zdnet.com",
+      "final_url": "https://www.zdnet.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://venturebeat.com",
+      "final_url": "https://venturebeat.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 429,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://thenextweb.com",
+      "final_url": "https://thenextweb.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.engadget.com",
+      "final_url": "https://www.engadget.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://gizmodo.com",
+      "final_url": "https://gizmodo.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.fastcompany.com",
+      "final_url": "https://www.fastcompany.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 403,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://openai.com",
+      "final_url": "https://openai.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.anthropic.com",
+      "final_url": "https://www.anthropic.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://x.ai",
+      "final_url": "https://x.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://deepmind.google",
+      "final_url": "https://deepmind.google",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://mistral.ai",
+      "final_url": "https://mistral.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://cohere.com",
+      "final_url": "https://cohere.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.perplexity.ai",
+      "final_url": "https://www.perplexity.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://inflection.ai",
+      "final_url": "https://inflection.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://character.ai",
+      "final_url": "https://character.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://stability.ai",
+      "final_url": "https://stability.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.midjourney.com",
+      "final_url": "https://www.midjourney.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://huggingface.co",
+      "final_url": "https://huggingface.co",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://replicate.com",
+      "final_url": "https://replicate.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [
+        {
+          "header": "link",
+          "value": "</.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", <https://api.replicate.com/openapi.json>; rel=\"service-desc\"; type=\"application/vnd.oai.openapi+json;version=3.0\", <https://replicate.com/docs/reference/http>; rel=\"service-doc\"; type=\"text/html\", <https://replicate.com/llms.txt>; rel=\"describedby\"; type=\"text/plain\", <https://replicate.com/terms>; rel=\"terms-of-service\"",
+          "category": "agent-directed",
+          "detail": "Link header points to llms.txt"
+        }
+      ],
+      "verdict": "agent-directed",
+      "error": ""
+    },
+    {
+      "url": "https://www.together.ai",
+      "final_url": "https://www.together.ai",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://docs.python.org",
+      "final_url": "https://docs.python.org/3/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://developer.mozilla.org",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://docs.github.com",
+      "final_url": "https://docs.github.com/en",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://cloud.google.com/docs",
+      "final_url": "https://docs.cloud.google.com/docs",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://learn.microsoft.com",
+      "final_url": "https://learn.microsoft.com/en-us/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://docs.aws.amazon.com",
+      "final_url": "https://docs.aws.amazon.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://docs.stripe.com",
+      "final_url": "https://docs.stripe.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://docs.docker.com",
+      "final_url": "https://docs.docker.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://kubernetes.io/docs",
+      "final_url": "https://kubernetes.io/docs/home/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://react.dev",
+      "final_url": "https://react.dev",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.salesforce.com",
+      "final_url": "https://www.salesforce.com/ca/?ir=1&bc=HL",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.hubspot.com",
+      "final_url": "https://www.hubspot.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://slack.com",
+      "final_url": "https://slack.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.notion.so",
+      "final_url": "https://www.notion.com/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.figma.com",
+      "final_url": "https://www.figma.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.canva.com",
+      "final_url": "https://www.canva.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.dropbox.com",
+      "final_url": "https://www.dropbox.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.zoom.us",
+      "final_url": "https://www.zoom.com/",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.shopify.com",
+      "final_url": "https://www.shopify.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    },
+    {
+      "url": "https://www.atlassian.com",
+      "final_url": "https://www.atlassian.com",
+      "observed_at": "2026-10-16T19:34:40+00:00",
+      "status": 200,
+      "headers_of_interest": [],
+      "verdict": "informational",
+      "error": ""
+    }
+  ]
+}
